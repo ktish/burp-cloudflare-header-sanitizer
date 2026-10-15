@@ -4,7 +4,7 @@ A small [mitmproxy](https://mitmproxy.org/) addon that sits downstream of Burp S
 
 > **Scope:** For targets you own or are explicitly authorized to test. This gets your authorized traffic through to the application behind the WAF. Only point it at targets you have permission to assess.
 
-Full write-up, including why it works and where it does not: [[Getting Burp Past Cloudflare: mitmproxy as a Header Sanitizer]](https://sotoit.com/2026/10/14/getting-burp-past-cloudflare-mitmproxy-as-a-header-sanitizer/)
+Full write-up, including why it works and where it does not: [Getting Burp Past Cloudflare: mitmproxy as a Header Sanitizer](https://sotoit.com/2026/10/14/getting-burp-past-cloudflare-mitmproxy-as-a-header-sanitizer/)
 
 ## What it does
 
