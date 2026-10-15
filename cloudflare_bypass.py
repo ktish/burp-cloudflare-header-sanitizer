@@ -30,7 +30,9 @@ class CloudflareBypass:
         flow.request.headers["Accept-Encoding"] = "gzip, deflate, br"
         flow.request.headers["Connection"] = "keep-alive"
 
-        
+        # 3. Modern Chrome sends these, so matching them
+        #    makes the header set more convincing than User-Agent alone.
+        #    Keep the version in sync with the Chrome version above.
         flow.request.headers["sec-ch-ua"] = (
             '"Chromium";v="132", "Google Chrome";v="132", '
             '"Not_A Brand";v="99"'
